@@ -1,0 +1,26 @@
+.search{
+    
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 25px;
+    background:rgb(209, 209, 212);
+    transition: box-shadow 0.2;
+}
+.search:focus-within{
+    box-shadow :0 0 2px rgb(0,0,0,0.75)
+}
+.search-input{
+    font-size: 15px;
+    font-family: 'lexend',sans-serif;
+    color:rgb(18, 18, 19); 
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 300px;
+}
+.search-input::placeholder{
+    color: rgb(93, 86, 86);
+}
